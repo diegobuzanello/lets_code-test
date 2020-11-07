@@ -16,5 +16,5 @@ Projeto realizado para o teste de Front-End da Let's Code.
 Para visualizar é preciso clonar o repositório, após isso instalar a cli do ionic com: 
 `npm install -g @ionic/cli`
 
-E iniciar com ionic serve
+E iniciar com
 `ionic serve`
