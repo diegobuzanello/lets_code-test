@@ -1,0 +1,50 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>{{profile.name.first}} {{profile.name.last}}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div id="container">
+    <div class="profile-general-info">
+      <img class="profile-picture" src="{{profile.picture.large}}" />
+      <div class="data">
+        <h1>{{profile.name.first}} {{profile.name.last}}</h1>
+        <p>{{profile.email}}</p>
+
+        <span class="telephone">{{profile.phone}}</span> <br />
+        <span class="address"
+          >{{profile.location.street.name}}, {{profile.location.street.number}}
+          <br />
+          {{profile.location.city}} - {{profile.location.state}},
+          {{profile.location.country}}</span
+        >
+      </div>
+    </div>
+    <div class="ion-text-center other-infos">
+      <h2>Outras informações</h2>
+      <div class="blocks">
+        <p class="title">Gênero</p>
+        <p>{{profile.gender}}</p>
+      </div>
+
+      <div class="blocks">
+        <p class="title">Naturalização</p>
+        <p>{{profile.nat}}</p>
+      </div>
+
+      <div class="blocks">
+        <p class="title">Idade</p>
+        <p>{{profile.dob.age}}</p>
+      </div>
+
+      <div class="blocks">
+        <p class="title">Nome de usuário</p>
+        <p>{{profile.login.username}}</p>
+      </div>
+    </div>
+  </div>
+</ion-content>

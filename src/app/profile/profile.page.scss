@@ -1,0 +1,51 @@
+#container {
+  padding: 16px;
+}
+
+.profile-picture {
+  height: 120px;
+  width: auto;
+  object-fit: contain;
+  border-radius: 100%;
+}
+.profile-general-info {
+  display: flex;
+}
+
+.data {
+  padding-left: 16px;
+
+  h1 {
+    margin: 0;
+  }
+  p {
+    margin: 0 0 12px 0;
+  }
+
+  span.telephone {
+    margin-top: 16px;
+    font-size: 14px;
+    color: gray;
+  }
+  span.address {
+    font-size: 14px;
+    color: gray;
+  }
+}
+
+.other-infos h2 {
+  font-weight: 500;
+  font-size: 14px;
+  color: gray;
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px solid rgb(214, 214, 214);
+}
+
+.blocks p.title {
+  margin-bottom: 0;
+}
+
+.blocks p {
+  margin-top: 6px;
+}
