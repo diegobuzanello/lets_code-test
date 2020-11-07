@@ -3,7 +3,7 @@ Projeto realizado para o teste de Front-End da Let's Code.
 
 <div align="center">
   <div>
-     <img alt="Let's Code" src=".github/letscode_logo.png" width="200px"  />
+     <img alt="Let's Code" src=".github/logo_letscode.png" width="200px"  />
   </div>
 </div>
 
