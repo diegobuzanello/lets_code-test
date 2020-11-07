@@ -1,0 +1,7 @@
+{
+  "name": "lets_code-test",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
